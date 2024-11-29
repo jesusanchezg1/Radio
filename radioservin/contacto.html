@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloindex.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .encabezado {
+            background-color: #363636;
+            color: white;
+            text-align: center;
+        }
+
+        .encabezado img {
+            width: 100%;
+            height: auto;
+        }
+
+        .menu_principal ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px;
+        }
+
+        .menu_principal ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .menu_principal ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        .main {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .contacto {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .contacto h2 {
+            font-size: 24px;
+            color: #1162ac;
+        }
+
+        .contacto p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .contacto a {
+            text-decoration: none;
+            color: #1162ac;
+        }
+
+        .footer {
+            background-color: #363636;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .footer img {
+            width: 90px;
+            height: 90px;
+        }
+
+        .footer__social ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer__social ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .footer__social ul li a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="encabezado">
+        <img src="imagenespaginaservin/banner_servin_fi.png" alt="Banner">
+        <nav class="menu_principal">
+            <ul>
+                <li><a href="index.html">Regresar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o comentario? No dudes en ponerte en contacto con nosotros.</p>
+            <p>Puedes encontrarnos en nuestras redes sociales:</p>
+
+
+         
+            <!-- Agrega aquí tu formulario de contacto o información de contacto -->
+        </section>
+        <section class="mapa">
+            <h3 class="titulo-principal">Nuestra Ubicación</h3>
+            <p>Ciudad Universitaria Toluca,Mexico</p>
+
+            <div class="mapa-contenido">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3765.979791472591!2d-99.675904!3d19.283245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd89b49a715133%3A0xcf0d4f83c3bdf267!2sFacultad%20de%20Ingenier%C3%ADa!5e0!3m2!1sen!2sus!4v1695834022601!5m2!1sen!2sus"
+                    width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <img src="imagenespaginaservin/logo_radio_servin.png" alt="Logo Radio Servin Fi">
+            <p class="copyright" id="year">&copy; Copyright Radio Servin Fi - <span id="current-year"></span></p>
+        </div>
+   
+        <div class="footer__right">
+            <ul class="footer__social">
+                <li><a href="https://www.facebook.com/Urielmorafr/" class="footer__midia"><img src="imagenespaginaservin/facebook.png" alt="Ícono de Facebook"></a></li>
+                <li><a href="https://www.instagram.com/uriel_moraf/" class="footer__midia"><img src="imagenespaginaservin/instagram.png" alt="Ícono de Instagram"></a></li>
+                <li><a href="https://twitter.com/UriellMoraless?fbclid=IwAR0PiSnGAS7r7s2uI2UDVvmX6iLWnF6DpO4ZLKoVanT-I63NJx9VjhKtgEo" class="footer__midia"><img src="imagenespaginaservin/twitter.png" alt="Ícono de Twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

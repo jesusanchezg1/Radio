@@ -1,0 +1,214 @@
+/* Estilos generales URIEL MORALES FLORES*/
+
+/* Estilos generales para pantallas más pequeñas */
+@media (max-width: 768px) {
+    /* Define estilos específicos para pantallas más pequeñas */
+    /* Por ejemplo, ajustar el tamaño de fuente o el espaciado */
+}
+
+@media (max-width: 768px) {
+    /* Estilos para pantallas pequeñas */
+}
+
+
+/* Estilos generales para pantallas más grandes */
+@media (min-width: 769px) {
+    /* Define estilos específicos para pantallas más grandes */
+    /* Puedes ajustar el diseño de la página aquí */
+}
+
+/* Estilos generales para pantallas más pequeñas */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Ejemplo: ajusta el tamaño de fuente para pantallas más pequeñas */
+    }
+    
+    /* Agrega otros estilos específicos para pantallas más pequeñas aquí */
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #4b4d4e;
+    padding: 7px 0;
+}
+
+.menu_principal {
+    text-align: center;
+}
+
+.menu_principal ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu_principal li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu_principal a {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.menu_principal a:hover {
+    background-color: #555;
+}
+
+/* TITULO DEL INICIO DE PAGINA */
+.principaltitulo {
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: #f7b233; /* Cambia el color de fondo a un naranja brillante */
+    padding: 10px; /* Añade un espacio alrededor del contenido para resaltarlo */
+}
+
+.tituloradio {
+    color: #ffffff; /* Cambia el color del texto a blanco */
+    font-size: 20px; /* Ajusta el tamaño de fuente para resaltarlo */
+    font-weight: bold; /* Hace que el texto sea más audaz (negrita) */
+}
+
+/* TEXTO DESPUÉS DEL TITULO PRINCIPAL */
+.principaltexto {
+    padding: 20px;
+    text-align: center;
+}
+
+.parrafo {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#mision {
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* Menú de la radio */
+.menu_radio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu_radio li {
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+menu_radio li:hover {
+    border-color: #c78c19;
+    transform: scale(1.03);
+}
+
+.menu_radio h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1162ac;
+}
+
+.menu-descripcion {
+    font-size: 16px;
+}
+
+menu-hora {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Footer y redes */
+footer {
+    text-align: center;
+    background-color: #363636;
+    padding: 10px 0;
+    color: white;
+} 
+
+ul.footer__social {
+    list-style: none;
+    padding: 0;
+}
+
+ul.footer__social li {
+    display: inline;
+    margin-right: 10px; /* Espacio entre íconos de redes sociales */
+}
+
+/* CATALOGO DE ÁLBUMES */
+/* Estilos para el catálogo de álbumes */
+
+.album-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px; /* Agrega un espacio entre los elementos del catálogo */
+}
+
+.album {
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #ff9900; /* Añade un borde naranja a cada álbum */
+    padding: 10px;
+    border-radius: 10px; /* Redondea las esquinas del borde */
+    width: 250px; /* Establece un ancho fijo para cada álbum */
+}
+
+.album img {
+    max-width: 100%;
+    height: auto;
+}
+
+.album-description {
+    font-size: 16px;
+    color: #333; /* Cambia el color del texto de la descripción */
+    margin: 10px 0;
+}
+
+/* Estilo para el título "Álbumes del Mes" */
+.tituloalbums {
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: #ff9900; /* Cambia el color de fondo a naranja brillante */
+    padding: 10px; /* Añade un espacio alrededor del contenido para resaltarlo */
+}
+
+.nombre {
+    color: #ffffff; /* Cambia el color del texto a blanco */
+    font-size: 24px; /* Ajusta el tamaño de fuente para resaltarlo */
+    font-weight: bold; /* Hace que el texto sea más audaz (negrita) */
+}
+
+.cinta-amigos {
+    background-color: #333; /* Color de fondo de la cinta */
+    color: #fff; /* Color del texto */
+    padding: 10px 0; /* Espaciado interno arriba y abajo */
+  }
+  
+  .cinta-amigos marquee {
+    white-space: nowrap; /* Evitar el ajuste de línea */
+  }
+  
+  .cinta-amigos span {
+    margin-right: 20px; /* Espaciado entre los nombres */
+  }
+  
